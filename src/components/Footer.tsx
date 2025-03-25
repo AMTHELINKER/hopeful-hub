@@ -22,7 +22,7 @@ const Footer = () => {
               Donner aux communautés les moyens d'agir par le développement durable, l'éducation et des initiatives de soins de santé.
             </p>
             <p className="text-warm-400 mb-6 italic">
-              "bokk liñu am ak ñëkó amul."
+              "Bokk liñu am ak ñiko amul"
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-humanitarian-800 hover:bg-humanitarian-700 p-2 rounded-full transition-colors">

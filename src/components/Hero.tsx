@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl animate-fade-in [animation-delay:200ms]">
           <span className="inline-block rounded-full bg-humanitarian-500/20 px-4 py-1.5 text-xs font-medium text-white mb-6">
-            Faire la différence ensemble
+            Bokk liñu am ak ñiko amul
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 text-shadow-lg">
             Créer un changement durable dans les communautés

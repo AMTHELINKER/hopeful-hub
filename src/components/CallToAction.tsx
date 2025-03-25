@@ -20,6 +20,9 @@ const CallToAction = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
             Rejoignez-nous pour faire la différence
           </h2>
+          <p className="text-lg text-white/90 mb-4 leading-relaxed">
+            "Bokk liñu am ak ñiko amul"
+          </p>
           <p className="text-lg text-white/90 mb-8 leading-relaxed">
             Que ce soit par le bénévolat, les dons ou la sensibilisation, votre contribution compte. Ensemble, nous pouvons créer un monde plus équitable et compassionnel.
           </p>
