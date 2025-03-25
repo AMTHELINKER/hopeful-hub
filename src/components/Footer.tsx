@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,11 +12,17 @@ const Footer = () => {
           {/* Organization Info */}
           <div>
             <div className="flex items-center mb-6">
-              <Heart className="h-7 w-7 text-humanitarian-300" />
-              <span className="ml-2 text-xl font-display font-semibold">Âme Liñu Bokk</span>
+              <img 
+                src="/lovable-uploads/62de0f65-a16e-43ad-a14e-dfb830bf94bf.png" 
+                alt="Âme Liñu Bokk Logo" 
+                className="h-14"
+              />
             </div>
             <p className="text-warm-400 mb-6">
-              Empowering communities through sustainable development, education, and healthcare initiatives.
+              Donner aux communautés les moyens d'agir par le développement durable, l'éducation et des initiatives de soins de santé.
+            </p>
+            <p className="text-warm-400 mb-6 italic">
+              "bokk liñu am ak ñëkó amul."
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-humanitarian-800 hover:bg-humanitarian-700 p-2 rounded-full transition-colors">
@@ -36,44 +42,44 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-display font-semibold mb-6">Quick Links</h3>
+            <h3 className="text-lg font-display font-semibold mb-6">Liens Rapides</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#about" className="text-warm-400 hover:text-white transition-colors">About Us</a>
+                <a href="#about" className="text-warm-400 hover:text-white transition-colors">À Propos</a>
               </li>
               <li>
-                <a href="#mission" className="text-warm-400 hover:text-white transition-colors">Our Mission</a>
+                <a href="#mission" className="text-warm-400 hover:text-white transition-colors">Notre Mission</a>
               </li>
               <li>
-                <a href="#programs" className="text-warm-400 hover:text-white transition-colors">Programs</a>
+                <a href="#programs" className="text-warm-400 hover:text-white transition-colors">Programmes</a>
               </li>
               <li>
-                <a href="#" className="text-warm-400 hover:text-white transition-colors">Success Stories</a>
+                <a href="#" className="text-warm-400 hover:text-white transition-colors">Témoignages</a>
               </li>
               <li>
-                <a href="#" className="text-warm-400 hover:text-white transition-colors">Latest News</a>
+                <a href="#" className="text-warm-400 hover:text-white transition-colors">Actualités</a>
               </li>
               <li>
-                <a href="#donate" className="text-warm-400 hover:text-white transition-colors">Donate</a>
+                <a href="#donate" className="text-warm-400 hover:text-white transition-colors">Faire un Don</a>
               </li>
             </ul>
           </div>
           
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-display font-semibold mb-6">Contact Us</h3>
+            <h3 className="text-lg font-display font-semibold mb-6">Contactez-Nous</h3>
             <ul className="space-y-4">
               <li className="flex">
                 <MapPin className="h-5 w-5 text-humanitarian-400 mr-3 flex-shrink-0" />
                 <span className="text-warm-400">
-                  123 Compassion Way<br />
-                  Global City, Earth 12345
+                  123 Rue de la Compassion<br />
+                  Dakar, Sénégal
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-humanitarian-400 mr-3 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-warm-400 hover:text-white transition-colors">
-                  (123) 456-7890
+                <a href="tel:+221123456789" className="text-warm-400 hover:text-white transition-colors">
+                  +221 12 345 67 89
                 </a>
               </li>
               <li className="flex">
@@ -87,27 +93,27 @@ const Footer = () => {
           
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-display font-semibold mb-6">Stay Updated</h3>
+            <h3 className="text-lg font-display font-semibold mb-6">Restez Informé</h3>
             <p className="text-warm-400 mb-4">
-              Subscribe to our newsletter for updates on our work and impact.
+              Abonnez-vous à notre newsletter pour suivre notre travail et notre impact.
             </p>
             <form className="mb-4">
               <div className="flex">
                 <input 
                   type="email" 
-                  placeholder="Your email address" 
+                  placeholder="Votre adresse email" 
                   className="rounded-l-lg px-4 py-2 w-full focus:outline-none text-gray-800"
                 />
                 <button 
                   type="submit" 
                   className="bg-humanitarian-500 hover:bg-humanitarian-600 rounded-r-lg px-4 py-2 transition-colors"
                 >
-                  Subscribe
+                  S'abonner
                 </button>
               </div>
             </form>
             <p className="text-warm-400 text-sm">
-              We respect your privacy. Unsubscribe at any time.
+              Nous respectons votre vie privée. Désabonnez-vous à tout moment.
             </p>
           </div>
         </div>
@@ -115,17 +121,17 @@ const Footer = () => {
         <div className="border-t border-humanitarian-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-warm-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Âme Liñu Bokk. All rights reserved.
+              © {currentYear} Âme Liñu Bokk. Tous droits réservés.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
-                Privacy Policy
+                Politique de Confidentialité
               </a>
               <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
-                Terms of Service
+                Conditions d'Utilisation
               </a>
               <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
-                Cookie Policy
+                Politique des Cookies
               </a>
             </div>
           </div>

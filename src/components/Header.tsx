@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -22,26 +22,29 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Heart className="h-8 w-8 text-humanitarian-500" />
-            <span className="ml-2 text-xl font-display font-semibold text-humanitarian-800">Âme Liñu Bokk</span>
+            <img 
+              src="/lovable-uploads/62de0f65-a16e-43ad-a14e-dfb830bf94bf.png" 
+              alt="Âme Liñu Bokk Logo" 
+              className="h-12"
+            />
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
-              About Us
+              À Propos
             </a>
             <a href="#mission" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
-              Our Mission
+              Notre Mission
             </a>
             <a href="#programs" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
-              Programs
+              Programmes
             </a>
             <a href="#donate" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
-              Get Involved
+              S'Impliquer
             </a>
             <Button className="bg-humanitarian-500 hover:bg-humanitarian-600 text-white">
-              Donate Now
+              Faire un Don
             </Button>
           </nav>
           
@@ -64,34 +67,34 @@ const Header = () => {
               className="block py-2 text-humanitarian-800"
               onClick={() => setIsMenuOpen(false)}
             >
-              About Us
+              À Propos
             </a>
             <a 
               href="#mission" 
               className="block py-2 text-humanitarian-800"
               onClick={() => setIsMenuOpen(false)}
             >
-              Our Mission
+              Notre Mission
             </a>
             <a 
               href="#programs" 
               className="block py-2 text-humanitarian-800"
               onClick={() => setIsMenuOpen(false)}
             >
-              Programs
+              Programmes
             </a>
             <a 
               href="#donate" 
               className="block py-2 text-humanitarian-800"
               onClick={() => setIsMenuOpen(false)}
             >
-              Get Involved
+              S'Impliquer
             </a>
             <Button 
               className="w-full justify-center bg-humanitarian-500 hover:bg-humanitarian-600 text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Donate Now
+              Faire un Don
             </Button>
           </div>
         </div>

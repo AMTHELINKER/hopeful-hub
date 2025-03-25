@@ -13,21 +13,21 @@ const Hero = () => {
       <div className="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl animate-fade-in [animation-delay:200ms]">
           <span className="inline-block rounded-full bg-humanitarian-500/20 px-4 py-1.5 text-xs font-medium text-white mb-6">
-            Making a difference together
+            Faire la différence ensemble
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 text-shadow-lg">
-            Creating lasting change in communities worldwide
+            Créer un changement durable dans les communautés
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-            We empower communities through sustainable development, education, and healthcare initiatives, creating pathways to self-reliance and dignity.
+            Nous donnons aux communautés les moyens d'agir grâce à des initiatives de développement durable, d'éducation et de soins de santé, créant ainsi des voies vers l'autonomie et la dignité.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#donate" className="btn-primary">
-              Support Our Cause
+              Soutenir Notre Cause
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a href="#mission" className="btn-outline border-white text-white hover:bg-white/10">
-              Learn More
+              En Savoir Plus
             </a>
           </div>
         </div>

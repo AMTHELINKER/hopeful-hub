@@ -8,13 +8,13 @@ const Mission = () => {
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-3 py-1 text-sm font-medium text-humanitarian-600 bg-humanitarian-100 rounded-full mb-4">
-            Our Mission
+            Notre Mission
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-humanitarian-900 mb-6">
-            Dedicated to a world of dignity, equality, and opportunity for all
+            Dédiés à un monde de dignité, d'égalité et d'opportunité pour tous
           </h2>
           <p className="text-lg text-humanitarian-700 leading-relaxed">
-            We believe in the power of compassion to transform lives. Through sustainable initiatives, we address immediate needs while building long-term resilience in communities facing adversity.
+            Nous croyons au pouvoir de la compassion pour transformer des vies. Grâce à des initiatives durables, nous répondons aux besoins immédiats tout en renforçant la résilience à long terme dans les communautés confrontées à l'adversité.
           </p>
         </div>
         
@@ -24,9 +24,9 @@ const Mission = () => {
             <div className="rounded-full bg-humanitarian-100 p-3 inline-flex w-14 h-14 items-center justify-center mb-6">
               <Heart className="h-7 w-7 text-humanitarian-600" />
             </div>
-            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Our Vision</h3>
+            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Notre Vision</h3>
             <p className="text-humanitarian-700">
-              A world where every person has access to resources and opportunities needed for a dignified life, regardless of where they were born.
+              Un monde où chaque personne a accès aux ressources et aux opportunités nécessaires pour une vie digne, indépendamment de son lieu de naissance.
             </p>
           </div>
           
@@ -35,9 +35,9 @@ const Mission = () => {
             <div className="rounded-full bg-humanitarian-100 p-3 inline-flex w-14 h-14 items-center justify-center mb-6">
               <Globe className="h-7 w-7 text-humanitarian-600" />
             </div>
-            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Our Approach</h3>
+            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Notre Approche</h3>
             <p className="text-humanitarian-700">
-              We combine immediate assistance with sustainable solutions, working alongside local communities to create lasting, meaningful change.
+              Nous combinons assistance immédiate et solutions durables, travaillant aux côtés des communautés locales pour créer un changement durable et significatif.
             </p>
           </div>
           
@@ -46,16 +46,16 @@ const Mission = () => {
             <div className="rounded-full bg-humanitarian-100 p-3 inline-flex w-14 h-14 items-center justify-center mb-6">
               <Home className="h-7 w-7 text-humanitarian-600" />
             </div>
-            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Our Values</h3>
+            <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-4">Nos Valeurs</h3>
             <p className="text-humanitarian-700">
-              Compassion, integrity, and accountability guide everything we do. We respect local cultures and believe in the potential of every individual.
+              La compassion, l'intégrité et la responsabilité guident tout ce que nous faisons. Nous respectons les cultures locales et croyons au potentiel de chaque individu.
             </p>
           </div>
         </div>
         
         <div className="mt-16 text-center">
           <a href="#programs" className="btn-outline">
-            See Our Impact
+            Voir Notre Impact
           </a>
         </div>
       </div>

@@ -8,13 +8,13 @@ const Programs = () => {
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-3 py-1 text-sm font-medium text-warm-600 bg-warm-100 rounded-full mb-4">
-            Our Programs
+            Nos Programmes
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-humanitarian-900 mb-6">
-            Creating sustainable solutions for lasting change
+            Créer des solutions durables pour un changement pérenne
           </h2>
           <p className="text-lg text-humanitarian-700 leading-relaxed">
-            Our comprehensive approach focuses on addressing immediate needs while building long-term resilience through these key program areas.
+            Notre approche globale se concentre sur la réponse aux besoins immédiats tout en renforçant la résilience à long terme grâce à ces domaines de programme clés.
           </p>
         </div>
         
@@ -28,17 +28,17 @@ const Programs = () => {
                   <div className="bg-white rounded-full p-2">
                     <Droplet className="h-5 w-5 text-humanitarian-600" />
                   </div>
-                  <span className="text-white font-medium">Clean Water</span>
+                  <span className="text-white font-medium">Eau Potable</span>
                 </div>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Clean Water & Sanitation</h3>
+              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Eau Potable & Assainissement</h3>
               <p className="text-humanitarian-700 mb-4">
-                We provide sustainable access to clean water, promote proper sanitation practices, and educate communities on maintaining water resources.
+                Nous assurons un accès durable à l'eau potable, promouvons de bonnes pratiques d'assainissement et sensibilisons les communautés à la préservation des ressources hydriques.
               </p>
               <a href="#" className="inline-flex items-center text-humanitarian-600 font-medium hover:text-humanitarian-700 transition-colors">
-                Learn more <MoveRight className="ml-2 h-4 w-4" />
+                En savoir plus <MoveRight className="ml-2 h-4 w-4" />
               </a>
             </div>
           </div>
@@ -52,17 +52,17 @@ const Programs = () => {
                   <div className="bg-white rounded-full p-2">
                     <Book className="h-5 w-5 text-humanitarian-600" />
                   </div>
-                  <span className="text-white font-medium">Education</span>
+                  <span className="text-white font-medium">Éducation</span>
                 </div>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Education & Skills</h3>
+              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Éducation & Compétences</h3>
               <p className="text-humanitarian-700 mb-4">
-                We build schools, train teachers, and provide educational resources to ensure children and adults have access to quality learning opportunities.
+                Nous construisons des écoles, formons des enseignants et fournissons des ressources éducatives pour garantir aux enfants et aux adultes l'accès à des opportunités d'apprentissage de qualité.
               </p>
               <a href="#" className="inline-flex items-center text-humanitarian-600 font-medium hover:text-humanitarian-700 transition-colors">
-                Learn more <MoveRight className="ml-2 h-4 w-4" />
+                En savoir plus <MoveRight className="ml-2 h-4 w-4" />
               </a>
             </div>
           </div>
@@ -81,12 +81,12 @@ const Programs = () => {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Food Security & Nutrition</h3>
+              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Sécurité Alimentaire & Nutrition</h3>
               <p className="text-humanitarian-700 mb-4">
-                We combat hunger through sustainable agriculture initiatives, emergency food assistance, and nutrition education programs.
+                Nous luttons contre la faim grâce à des initiatives agricoles durables, une aide alimentaire d'urgence et des programmes d'éducation nutritionnelle.
               </p>
               <a href="#" className="inline-flex items-center text-humanitarian-600 font-medium hover:text-humanitarian-700 transition-colors">
-                Learn more <MoveRight className="ml-2 h-4 w-4" />
+                En savoir plus <MoveRight className="ml-2 h-4 w-4" />
               </a>
             </div>
           </div>
@@ -100,17 +100,17 @@ const Programs = () => {
                   <div className="bg-white rounded-full p-2">
                     <Heart className="h-5 w-5 text-humanitarian-600" />
                   </div>
-                  <span className="text-white font-medium">Healthcare</span>
+                  <span className="text-white font-medium">Santé</span>
                 </div>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Healthcare Access</h3>
+              <h3 className="text-xl font-display font-semibold text-humanitarian-800 mb-3">Accès aux Soins de Santé</h3>
               <p className="text-humanitarian-700 mb-4">
-                We improve access to essential healthcare services through mobile clinics, community health worker training, and medical infrastructure development.
+                Nous améliorons l'accès aux services de santé essentiels grâce à des cliniques mobiles, à la formation d'agents de santé communautaires et au développement d'infrastructures médicales.
               </p>
               <a href="#" className="inline-flex items-center text-humanitarian-600 font-medium hover:text-humanitarian-700 transition-colors">
-                Learn more <MoveRight className="ml-2 h-4 w-4" />
+                En savoir plus <MoveRight className="ml-2 h-4 w-4" />
               </a>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Programs = () => {
         
         <div className="mt-12 text-center">
           <a href="#" className="btn-outline">
-            View All Programs
+            Voir Tous les Programmes
           </a>
         </div>
       </div>

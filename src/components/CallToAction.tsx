@@ -18,18 +18,18 @@ const CallToAction = () => {
       <div className="container mx-auto container-padding relative z-10">
         <div className="max-w-3xl mx-auto text-center text-white">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Join us in making a difference
+            Rejoignez-nous pour faire la différence
           </h2>
           <p className="text-lg text-white/90 mb-8 leading-relaxed">
-            Whether through volunteering, donating, or spreading awareness, your contribution matters. Together, we can create a more equitable and compassionate world.
+            Que ce soit par le bénévolat, les dons ou la sensibilisation, votre contribution compte. Ensemble, nous pouvons créer un monde plus équitable et compassionnel.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#donate" className="btn-primary bg-white text-humanitarian-700 hover:bg-warm-100">
-              Donate Now
+              Faire un Don Maintenant
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a href="#" className="btn-outline border-white text-white hover:bg-white/10">
-              Volunteer
+              Devenir Bénévole
             </a>
           </div>
         </div>
