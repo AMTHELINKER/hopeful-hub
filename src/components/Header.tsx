@@ -22,25 +22,25 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Heart className="h-8 w-8 text-humanitarian-600" />
-            <span className="ml-2 text-xl font-display font-semibold text-humanitarian-800">HopeHaven</span>
+            <Heart className="h-8 w-8 text-humanitarian-500" />
+            <span className="ml-2 text-xl font-display font-semibold text-humanitarian-800">Âme Liñu Bokk</span>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-humanitarian-800 hover:text-humanitarian-600 transition-colors">
+            <a href="#about" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
               About Us
             </a>
-            <a href="#mission" className="text-humanitarian-800 hover:text-humanitarian-600 transition-colors">
+            <a href="#mission" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
               Our Mission
             </a>
-            <a href="#programs" className="text-humanitarian-800 hover:text-humanitarian-600 transition-colors">
+            <a href="#programs" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
               Programs
             </a>
-            <a href="#donate" className="text-humanitarian-800 hover:text-humanitarian-600 transition-colors">
+            <a href="#donate" className="text-humanitarian-800 hover:text-humanitarian-500 transition-colors">
               Get Involved
             </a>
-            <Button className="bg-humanitarian-600 hover:bg-humanitarian-700 text-white">
+            <Button className="bg-humanitarian-500 hover:bg-humanitarian-600 text-white">
               Donate Now
             </Button>
           </nav>
@@ -88,7 +88,7 @@ const Header = () => {
               Get Involved
             </a>
             <Button 
-              className="w-full justify-center bg-humanitarian-600 hover:bg-humanitarian-700 text-white"
+              className="w-full justify-center bg-humanitarian-500 hover:bg-humanitarian-600 text-white"
               onClick={() => setIsMenuOpen(false)}
             >
               Donate Now

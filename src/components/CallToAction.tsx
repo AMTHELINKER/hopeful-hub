@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 const CallToAction = () => {
   return (
-    <section className="section-spacing bg-warm-500 relative overflow-hidden">
+    <section className="section-spacing bg-humanitarian-500 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@ const CallToAction = () => {
             Whether through volunteering, donating, or spreading awareness, your contribution matters. Together, we can create a more equitable and compassionate world.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#donate" className="btn-primary bg-white text-warm-700 hover:bg-gray-100">
+            <a href="#donate" className="btn-primary bg-white text-humanitarian-700 hover:bg-warm-100">
               Donate Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>

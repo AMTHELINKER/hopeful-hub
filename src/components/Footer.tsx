@@ -12,10 +12,10 @@ const Footer = () => {
           {/* Organization Info */}
           <div>
             <div className="flex items-center mb-6">
-              <Heart className="h-7 w-7 text-humanitarian-400" />
-              <span className="ml-2 text-xl font-display font-semibold">HopeHaven</span>
+              <Heart className="h-7 w-7 text-humanitarian-300" />
+              <span className="ml-2 text-xl font-display font-semibold">Âme Liñu Bokk</span>
             </div>
-            <p className="text-humanitarian-300 mb-6">
+            <p className="text-warm-400 mb-6">
               Empowering communities through sustainable development, education, and healthcare initiatives.
             </p>
             <div className="flex space-x-4">
@@ -39,22 +39,22 @@ const Footer = () => {
             <h3 className="text-lg font-display font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#about" className="text-humanitarian-300 hover:text-white transition-colors">About Us</a>
+                <a href="#about" className="text-warm-400 hover:text-white transition-colors">About Us</a>
               </li>
               <li>
-                <a href="#mission" className="text-humanitarian-300 hover:text-white transition-colors">Our Mission</a>
+                <a href="#mission" className="text-warm-400 hover:text-white transition-colors">Our Mission</a>
               </li>
               <li>
-                <a href="#programs" className="text-humanitarian-300 hover:text-white transition-colors">Programs</a>
+                <a href="#programs" className="text-warm-400 hover:text-white transition-colors">Programs</a>
               </li>
               <li>
-                <a href="#" className="text-humanitarian-300 hover:text-white transition-colors">Success Stories</a>
+                <a href="#" className="text-warm-400 hover:text-white transition-colors">Success Stories</a>
               </li>
               <li>
-                <a href="#" className="text-humanitarian-300 hover:text-white transition-colors">Latest News</a>
+                <a href="#" className="text-warm-400 hover:text-white transition-colors">Latest News</a>
               </li>
               <li>
-                <a href="#donate" className="text-humanitarian-300 hover:text-white transition-colors">Donate</a>
+                <a href="#donate" className="text-warm-400 hover:text-white transition-colors">Donate</a>
               </li>
             </ul>
           </div>
@@ -65,21 +65,21 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex">
                 <MapPin className="h-5 w-5 text-humanitarian-400 mr-3 flex-shrink-0" />
-                <span className="text-humanitarian-300">
+                <span className="text-warm-400">
                   123 Compassion Way<br />
                   Global City, Earth 12345
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-humanitarian-400 mr-3 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-humanitarian-300 hover:text-white transition-colors">
+                <a href="tel:+1234567890" className="text-warm-400 hover:text-white transition-colors">
                   (123) 456-7890
                 </a>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-humanitarian-400 mr-3 flex-shrink-0" />
-                <a href="mailto:info@hopehaven.org" className="text-humanitarian-300 hover:text-white transition-colors">
-                  info@hopehaven.org
+                <a href="mailto:info@amelinubokk.org" className="text-warm-400 hover:text-white transition-colors">
+                  info@amelinubokk.org
                 </a>
               </li>
             </ul>
@@ -88,7 +88,7 @@ const Footer = () => {
           {/* Newsletter */}
           <div>
             <h3 className="text-lg font-display font-semibold mb-6">Stay Updated</h3>
-            <p className="text-humanitarian-300 mb-4">
+            <p className="text-warm-400 mb-4">
               Subscribe to our newsletter for updates on our work and impact.
             </p>
             <form className="mb-4">
@@ -100,13 +100,13 @@ const Footer = () => {
                 />
                 <button 
                   type="submit" 
-                  className="bg-humanitarian-600 hover:bg-humanitarian-700 rounded-r-lg px-4 py-2 transition-colors"
+                  className="bg-humanitarian-500 hover:bg-humanitarian-600 rounded-r-lg px-4 py-2 transition-colors"
                 >
                   Subscribe
                 </button>
               </div>
             </form>
-            <p className="text-humanitarian-400 text-sm">
+            <p className="text-warm-400 text-sm">
               We respect your privacy. Unsubscribe at any time.
             </p>
           </div>
@@ -114,17 +114,17 @@ const Footer = () => {
         
         <div className="border-t border-humanitarian-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-humanitarian-400 text-sm mb-4 md:mb-0">
-              © {currentYear} HopeHaven. All rights reserved.
+            <p className="text-warm-400 text-sm mb-4 md:mb-0">
+              © {currentYear} Âme Liñu Bokk. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-humanitarian-400 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-humanitarian-400 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-humanitarian-400 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-warm-400 hover:text-white text-sm transition-colors">
                 Cookie Policy
               </a>
             </div>
